@@ -5,7 +5,7 @@ SNMP is a protocol used for network management and monitoring of devices within 
 we use lib called mibdump.py
 here is the command we use to compile mib file
 
-vote>we should have all dependent mibs in the same path 
+note>we should have all dependent mibs in the same path 
 
 
 mibdump.py --destination-directory=path/to/compiled/mib --mib-source=http://mibs.snmplabs.com/asn1/@mib@ --debug all path/to/mibfile.mib
