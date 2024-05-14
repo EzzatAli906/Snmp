@@ -1,6 +1,15 @@
 # Snmp
 SNMP is a protocol used for network management and monitoring of devices within a network. It facilitates the exchange of management information between network devices, allowing administrators to monitor device performance, detect and troubleshoot network problems, and manage network configurations remotely.
 
+***compiling mibs***
+we use lib called mibdump.py
+here is the command we use to compile mib file
+
+vote>we should have all dependent mibs in the same path 
+
+
+mibdump.py --destination-directory=path/to/compiled/mib --mib-source=http://mibs.snmplabs.com/asn1/@mib@ --debug all path/to/mibfile.mib
+
 
 
 ***input sample***
