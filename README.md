@@ -7,6 +7,8 @@ SNMP is a protocol used for network management and monitoring of devices within 
 
 This SNMP script is designed to parse compiled MIB (Management Information Base) files as input, extracting specific information, such as issue names or descriptions, using Object Identifiers (OIDs). By leveraging OIDs, the script retrieves precise data points defined within the MIB structure
 
+trap sample >> sudo snmptrap -c public -v 2c 127.0.0.1 "" 1.3.6.1.2.1.43.18.2.0.1
+
 
 ****output sample***
 
